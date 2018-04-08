@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import store from './Store';
-import App from './App';
+import './styles/index.css';
+import store from './stores/Store';
+import App from './components/App';
 import { Provider } from 'mobx-react';
 import registerServiceWorker from './registerServiceWorker';
 
